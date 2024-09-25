@@ -4,7 +4,6 @@ simple tetris game written in odin with raylib
 this game doesn't follow all of the official Tetris rules
 
 ## gameplay
-<<<<<<< HEAD
 ![25-09-24_20:34:39_w](https://github.com/user-attachments/assets/f88c5f5e-6508-40e9-af68-ae10b45d50e2)
 ![25-09-24_20:37:13_w](https://github.com/user-attachments/assets/cce7246c-4f91-498a-8874-790ea1d910ec)
 
