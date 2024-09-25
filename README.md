@@ -8,14 +8,6 @@ this game doesn't follow all of the official Tetris rules
 ![25-09-24_20:37:13_w](https://github.com/user-attachments/assets/cce7246c-4f91-498a-8874-790ea1d910ec)
 
 ## features
-
-
-=======
-![tetris-gameplay2](https://github.com/user-attachments/assets/770c7155-64d1-4004-98d9-a7918b1da3dc)
-![tetris-gameplay1](https://github.com/user-attachments/assets/37defb55-8d6f-4608-a4e0-dbbb47fc13b7)
-
-## features
->>>>>>> 33935a5 (full game)
 - [x] next block display
 - [x] score and best score
 - [x] simple start and end screen
