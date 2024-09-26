@@ -311,12 +311,19 @@ main :: proc() {
 	// by default dynamic arr has 0 len (obviously)
 	board = make([dynamic][COLS]u8, ROWS)
 	current = add_tetromino()
-	current.type = 'L'
 	next = add_tetromino()
 
+
 	rl.InitWindow(WIN_W, WIN_H, "tetris")
-	rl.SetTargetFPS(60)
 	defer rl.CloseWindow()
+	rl.SetTargetFPS(60)
+
+	rl.InitAudioDevice()
+	music := rl.LoadMusicStream("./res/music.mp3")
+	fmt.println(music)
+	rl.PlayMusicStream(music)
+	defer rl.CloseAudioDevice()
+	defer rl.UnloadMusicStream(music)
 
 	for !rl.WindowShouldClose() {
 		dt = rl.GetFrameTime()

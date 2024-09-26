@@ -20,6 +20,7 @@ this game doesn't follow all of the official Tetris rules
 ## install
 just [install odin](odin-lang.org/docs/install) on your system.
 it comes with raylib and some other third party packages out of the box
+**for linux binary is available**
 
 ## what's next?
 I **may** update this project and add some missing features

@@ -1,5 +1,6 @@
 run:
-    odin run .
+    odin run src/ -out:tetris
 
 build:
-    odin build .
+    odin build src/ -out:tetris
+
